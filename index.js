@@ -1,6 +1,5 @@
-import express from "express";
-import bodyParser from "body-parser";
-import http from "http";
+let express = require("express");
+let bodyParser = require("body-parser");
 
 const server = express();
 
