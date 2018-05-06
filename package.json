@@ -1,0 +1,24 @@
+{
+  "name": "nbservices",
+  "version": "1.0.0",
+  "description": "New Banking Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsoftcompanyec/nbservices.git"
+  },
+  "author": "Ramiro Lugmania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsoftcompanyec/nbservices/issues"
+  },
+  "homepage": "https://github.com/dsoftcompanyec/nbservices#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "unirest": "^0.5.1"
+  }
+}
