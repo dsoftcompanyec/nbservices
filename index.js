@@ -9,6 +9,12 @@ server.use(bodyParser.urlencoded({
 
 server.use(bodyParser.json());
 
+server.get('/', (req, res) => {
+    return res.json({
+        mesage: 'hello world'
+    });
+})
+
 server.post('/getmovements', (req, res) => {
 
     const val = Math.floor(Math.random() * 1000);
